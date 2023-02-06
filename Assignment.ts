@@ -62,7 +62,7 @@ function rm(file:string) {
 
 switch (cmdarray[0]) {
   case "ls":
-    ls(cmdarray[1]);
+    ls(cmdarray[0]);
     break;
   case "cp":
     cp(cmdarray[1],cmdarray[2]);
